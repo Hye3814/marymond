@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
 
@@ -50,7 +50,8 @@ address {
 }
 html {
   font-size: 0.625em;
-} /* 10 / 16 */
+} 
+
 body,
 h1,
 h2,
@@ -96,7 +97,7 @@ button {
 .hide {
   display: none;
 }
-.clear:after {
+.clear::after {
   content: "";
   clear: both;
   display: block;
@@ -108,8 +109,7 @@ button {
 .pc {
   display: none;
 }
-.mobile {
-}
+
 .desktop {
   display: none;
 }
@@ -286,7 +286,7 @@ header {
   bottom: 21px;
   width: 55px;
   height: 55px;
-  background: url(../img/logo_top\(B\).png) no-repeat;
+  background: url(../img/logo_topB.png) no-repeat;
   background-size: contain;
   text-indent: -9999px;
   color: rgba(255, 255, 255, 0);
@@ -539,7 +539,7 @@ span.visual_pc {
 .story4 {
   padding: 154px 8.667% 168px;
   margin-bottom: 54px;
-  background: url(../img/flower.jpg) no-repeat center/cover;
+  background: url(../img/sub1_story4_bg_3.jpg.png) no-repeat center/cover;
 }
 .story4 h2 {
   margin-bottom: 45px;
@@ -1079,7 +1079,7 @@ footer {
   }
   .story2 div:nth-of-type(2) {
     position: absolute;
-    left: calc(75px / (100% - 93px) * 100) %;
+    left: calc(75px / (100% - 93px) * 100%);
     top: 759px;
     z-index: -1;
     width: 70.247%;
@@ -1367,7 +1367,7 @@ footer {
     width: 54.351%;
     height: 1023px;
     padding: 405px 0 435px 5.966%;
-    background: url(../img/flower.jpg) no-repeat top/cover;
+    background: url(../img/sub1_story4_bg_2.jpg) no-repeat top/cover;
   }
   .story4 h2 {
     margin-bottom: 64px;

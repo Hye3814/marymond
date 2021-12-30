@@ -31,7 +31,7 @@ $(document).ready(function(){
 		scrollFixed(mst,mstInner,713);
 		scrollFixed(pst,pstInner,1013);
 		
-		/* animation class 異붽� */
+		/* animation class  */
 		if($(window).width() < 768){
 			h2slideUp_mobile(mstInner.find('h2'));
 			h2slideUp_mobile(pstInner.find('h2'));

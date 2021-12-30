@@ -1,0 +1,132 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap");
+
+/* reset */
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+tr,
+th,
+td,
+form,
+fieldset,
+legend,
+input,
+label,
+textarea,
+select,
+button,
+header,
+footer,
+nav,
+aside,
+main,
+section,
+article,
+a,
+span,
+strong,
+em,
+b,
+i,
+address {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 0.625em;
+} /* 10 / 16 */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Noto Sans KR", sans-serif;
+  line-height: 1;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+img,
+fieldset {
+  border: none;
+  vertical-align: middle;
+}
+strong,
+em,
+b,
+i,
+address {
+  font-weight: normal;
+  font-style: normal;
+}
+table {
+  border-collapse: collapse;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* comon */
+.hide{
+  display: none;
+}
+.clear::after{
+  display: black;
+content: "";
+clear: both;
+}
+
+.blind{
+ position: absolute; 
+ left: -9999px;
+}
+.pc {
+display: none;
+}
+.desktop{
+  display: none;
+}
+
+
+/* mobile */
+body {
+  overflow-x: hidden;
+}
+
+/* header - mobile */
+header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width:100%;
+  height: 65px; 
+  background-color: aqua;
+}
+
